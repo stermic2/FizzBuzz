@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LqF988w1rXB3p2f1q+TMvjF8KPgJblIaxPYQ12g4DMVKHqfi+40feXJaaFwTurZUSfwwD64Nbvp6xQ6c9La3Mw==",
+  "success": true,
+  "projectFilePath": "C:\\Code\\ConsoleApp2\\FizzBuzz\\FizzBuzz.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mikie.TLOFFICE\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
