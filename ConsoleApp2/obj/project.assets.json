@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mikie.TLOFFICE\\.nuget\\packages\\": {},
+    "C:\\Users\\mikie\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectUniqueName": "C:\\Code\\FizzBuzz\\ConsoleApp2\\ConsoleApp2.csproj",
       "projectName": "ConsoleApp2",
-      "projectPath": "C:\\Code\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
-      "packagesPath": "C:\\Users\\mikie.TLOFFICE\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\ConsoleApp2\\ConsoleApp2\\obj\\",
+      "projectPath": "C:\\Code\\FizzBuzz\\ConsoleApp2\\ConsoleApp2.csproj",
+      "packagesPath": "C:\\Users\\mikie\\.nuget\\packages\\",
+      "outputPath": "C:\\Code\\FizzBuzz\\ConsoleApp2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mikie.TLOFFICE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mikie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,14 +51,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.telerik.com/nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Code\\ConsoleApp2\\FizzBuzz\\FizzBuzz.csproj": {
-              "projectPath": "C:\\Code\\ConsoleApp2\\FizzBuzz\\FizzBuzz.csproj"
+            "C:\\Code\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj": {
+              "projectPath": "C:\\Code\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj"
             }
           }
         }
@@ -88,7 +87,15 @@
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.0.2, 3.0.2]"
+            "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
           }
         ],
         "frameworkReferences": {
@@ -96,7 +103,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

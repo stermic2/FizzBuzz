@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\ConsoleApp2\\FizzBuzz\\FizzBuzz.csproj": {}
+    "C:\\Code\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj": {}
   },
   "projects": {
-    "C:\\Code\\ConsoleApp2\\FizzBuzz\\FizzBuzz.csproj": {
+    "C:\\Code\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\ConsoleApp2\\FizzBuzz\\FizzBuzz.csproj",
+        "projectUniqueName": "C:\\Code\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj",
         "projectName": "FizzBuzz",
-        "projectPath": "C:\\Code\\ConsoleApp2\\FizzBuzz\\FizzBuzz.csproj",
-        "packagesPath": "C:\\Users\\mikie.TLOFFICE\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\ConsoleApp2\\FizzBuzz\\obj\\",
+        "projectPath": "C:\\Code\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj",
+        "packagesPath": "C:\\Users\\mikie\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\FizzBuzz\\FizzBuzz\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mikie.TLOFFICE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mikie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
@@ -55,6 +54,14 @@
             {
               "name": "Microsoft.AspNetCore.App.Ref",
               "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -62,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
