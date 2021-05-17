@@ -7,9 +7,10 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            FizzBuzz.FizzBuzz fizzBuzz = new FizzBuzz.FizzBuzz();
-            
-            var output = fizzBuzz.DoFizzBuzz(5000);
+            //The maximum value for this operation is MaxInt, but by my calculations; a good system would take about 24 hours to process such an operation.
+            var output = FizzBuzz.FizzBuzz.DoFizzBuzz(5000);
+            CompressionExtensions.modThree = "Fizzy";
+            CompressionExtensions.modFive = "Buzzy";
             output.DecompressAndPrintToConsole();
         }
     }

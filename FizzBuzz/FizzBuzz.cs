@@ -3,16 +3,9 @@ using System.Collections.Generic;
 
 namespace FizzBuzz
 {
-    public class FizzBuzz
+    public static class FizzBuzz
     {
-        public string modThree { get; set; } = "Fizz";
-        public string modFive { get; set; } = "Buzz";
-
-        public FizzBuzz()
-        {
-            
-        }
-        public List<ulong> DoFizzBuzz(int iterations)
+        public static List<ulong> DoFizzBuzz(int iterations)
         {
             List<ulong> output = new List<ulong>();
             Console.WriteLine("Doing FizzBuzz:");

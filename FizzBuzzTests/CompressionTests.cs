@@ -18,6 +18,7 @@ namespace FizzBuzzTests
             foreach (var s in testString)
                 testLong.Shift4BitsThenAdd(s);
             //assert
+            testLong.ShouldBeEquivalentTo((ulong)169463485);
         }
         
         [Fact]
@@ -31,7 +32,23 @@ namespace FizzBuzzTests
             //act
             testString = testLong.DecompressUlong();
             //assert
-            testString.ShouldBe("019fz\nb");
+            testString.ShouldBe("019FizzFizz Buzz\nBuzz");
+        }
+        
+        [Fact]
+        public async Task FizzAndBuzzCanBeSubstituted()
+        {
+            //arrange
+            string testString = "019fz\nb";
+            ulong testLong = 0;
+            foreach (var s in testString)
+                testLong.Shift4BitsThenAdd(s);
+            //act
+            CompressionExtensions.modThree = "Fizzy";
+            CompressionExtensions.modFive = "Buzzy";
+            testString = testLong.DecompressUlong();
+            //assert
+            testString.ShouldBe("019FizzyFizzy Buzzy\nBuzzy");
         }
     }
 }

@@ -5,6 +5,8 @@ namespace FizzBuzz
 {
     public static class CompressionExtensions
     {
+        public static string modThree { get; set; } = "Fizz";
+        public static string modFive { get; set; } = "Buzz";
         public static ulong Shift4BitsThenAdd(this ref ulong input, char character)
         {
             input <<= 4;
@@ -64,7 +66,13 @@ namespace FizzBuzz
         {
             char value;
             if (DecompressionTable.TryGetValue(input, out value) && value != 'x')
-                s += value;
+                if (value == 'f')
+                    s += modThree;
+                else if (value == 'b')
+                    s += modFive;
+                else if (value == 'z')
+                    s += modThree + " " + modFive;
+                else s += value;
             return s;
         }
         
